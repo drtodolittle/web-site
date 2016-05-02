@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dr ToDo Little</title>
+    <link>http://www.drtodolittle.de/</link>
+    <description>Recent content on Dr ToDo Little</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-DE</language>
+    <lastBuildDate>Mon, 02 May 2016 20:51:32 +0200</lastBuildDate>
+    <atom:link href="http://www.drtodolittle.de/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>first</title>
+      <link>http://www.drtodolittle.de/blog/first/</link>
+      <pubDate>Mon, 02 May 2016 20:51:32 +0200</pubDate>
+      
+      <guid>http://www.drtodolittle.de/blog/first/</guid>
+      <description>&lt;p&gt;*** Mein erster Blog ***&lt;/p&gt;
+
+&lt;p&gt;Dies ist mein erster Blogeintrag&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
