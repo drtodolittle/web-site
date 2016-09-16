@@ -38,7 +38,7 @@
 	<link rel="stylesheet" href="assets/css/plugins/style-switcher.css">
 
 	<!-- CSS Theme -->
-	<link rel="stylesheet" href="assets/css/theme-colors/default.css" id="style_color">
+	<link rel="stylesheet" href="assets/css/theme-colors/orange.css" id="style_color">
 	<link rel="stylesheet" href="assets/css/theme-skins/one.dark.css">
 
 	<!-- CSS Customization -->
@@ -51,68 +51,8 @@ The data-spy and data-target are part of the built-in Bootstrap scrollspy functi
 -->
 <body id="body" data-spy="scroll" data-target=".one-page-header" class="demo-lightbox-gallery">
 
-	<!--=== Header ===-->
-	<nav class="one-page-header one-page-header-style-2 navbar navbar-default navbar-fixed-top" role="navigation">
-		<div class="container">
-			<div class="menu-container page-scroll">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-
-				<a class="navbar-brand" href="#intro">
-					<span>U</span>nify
-					<!-- <img src="assets/img/logo1.png" alt="Logo"> -->
-				</a>
-			</div>
-
-			<div class="log-reg-block-simple cd-log_reg">
-				<a class="btn-u cd-signin" href="javascript:void(0);">Login</a>
-			</div>
-
-			<div class="top-contact-block">
-				<i class="fa fa-phone fa-1"></i> <a href="tel:0 800 2000 123">0 800 2000 123</a>
-			</div>
-
-			<!-- Collect the nav links, forms, and other content for toggling -->
-			<div class="collapse navbar-collapse navbar-ex1-collapse">
-				<div class="menu-container">
-					<ul class="nav navbar-nav">
-						<li class="page-scroll home">
-							<a href="#body">Home</a>
-						</li>
-						<li class="page-scroll">
-							<a href="#about">About Us</a>
-						</li>
-						<li class="page-scroll">
-							<a href="#services">Services</a>
-						</li>
-						<li class="page-scroll">
-							<a href="#news">News</a>
-						</li>
-						<li class="page-scroll">
-							<a href="#portfolio">Portfolio</a>
-						</li>
-						<li class="page-scroll">
-							<a href="#contact">Contact</a>
-						</li>
-						<li class="page-scroll">
-							<a href="../index.html">Main</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-			<!-- /.navbar-collapse -->
-		</div>
-		<!-- /.container -->
-	</nav>
-	<!--=== End Header ===-->
-
 	<!-- Promo block BEGIN -->
-	<section class="promo-section" id="intro">
-		<!-- Fullscreen Static Image BEGIN -->
+	<section class="promo-section navbar" id="intro">
 		<div class="fullscreen-static-image fullheight">
 			<!-- Promo Content BEGIN -->
 			<div class="container valign__middle">
@@ -123,7 +63,7 @@ The data-spy and data-target are part of the built-in Bootstrap scrollspy functi
 						The simplest todo-list
 					</div>
 					<div class="promo-next">
-						<span class="page-scroll"><a class="btn-u btn-brd btn-brd-hover btn-u-light" href="#about">Learn More</a></span>
+						<span class="page-scroll"><a class="btn-u btn-brd btn-brd-hover btn-u-light" href="#features">Learn More</a></span>
 						<span class="page-scroll"><a class="btn-u btn-brd btn-brd-hover btn-u-light" href="https://app.drtodolittle.de">Login</a></span>
 					</div>
 				  </div>
@@ -136,12 +76,12 @@ The data-spy and data-target are part of the built-in Bootstrap scrollspy functi
 	<!-- Promo block END -->
 
 	<!-- Colorful Service Blocks -->
-	<section class="container-fluid">
+	<section id="features" class="container-fluid">
 		<div class="row no-gutter equal-height-columns margin-bottom-10">
 			<div class="col-sm-4">
 				<div class="service-block service-block-purple no-margin-bottom content equal-height-column" style="height: 239px;">
 					<i class="icon-custom icon-md rounded icon-color-light icon-line icon-badge"></i>
-					<h2 class="heading-md font-light">Simplicity</h2>
+					<h2 class="heading-md fontid="features" -light">Simplicity</h2
 					<p class="no-margin-bottom font-light">Type your todo and press enter. That's it - you have create a new todo</p>
 				</div>
 			</div>
@@ -163,21 +103,7 @@ The data-spy and data-target are part of the built-in Bootstrap scrollspy functi
 	</section>
 	<!-- End Colorful Service Blocks -->
 
-	<!--  About Section -->
-	<section id="about" class="about-section">
-		<!-- Intro Block -->
-		<div class="container padding-top-60">
-			<div class="title-v1">
-				<h1>Powered by Cloud57</h1>
-				<p>Cloud 57 <strong>creative</strong> technology company providing key digital services. <br>
-				Focused on helping our clients to build a <strong>successful</strong> business on web and mobile.</p>
-			</div>
-			<div class="img-center">
-				<img class="img-responsive" src="assets/img/mockup/mockup.png" alt="">
-			</div>
-		</div>
-		<!-- Intro Block -->
-
+<section>
 		<!--=== Content Part ===-->
 		<div class="container content">
 			<div class="row">
@@ -187,12 +113,6 @@ The data-spy and data-target are part of the built-in Bootstrap scrollspy functi
 							<h2>Register a new account</h2>
 							<p>Already Signed Up? Click <a href="https://app.drtodolittle.de" class="color-green">Sign In</a> to login your account.</p>
 						</div>
-
-						<label>First Name</label>
-						<input type="text" class="form-control margin-bottom-20">
-
-						<label>Last Name</label>
-						<input type="text" class="form-control margin-bottom-20">
 
 						<label>Email Address <span class="color-red">*</span></label>
 						<input type="text" class="form-control margin-bottom-20">
@@ -226,7 +146,7 @@ The data-spy and data-target are part of the built-in Bootstrap scrollspy functi
 			</div>
 		</div><!--/container-->
 		<!--=== End Content Part ===-->
-
+</section>
 	<!-- Footer simple BEGIN -->
 	<section class="footer-simple">
 	  <div class="container">
