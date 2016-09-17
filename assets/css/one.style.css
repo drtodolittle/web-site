@@ -655,7 +655,7 @@ a:hover {
   color: #fff;
   font-size: 35px;
   line-height: 1.1;
-  font-weight: 200;
+  font-weight: 600;
   padding: 10px 75px;
   position: relative;
   border-top: solid 1px #fff;
@@ -683,7 +683,7 @@ a:hover {
   color: #fff;
   position: relative;
   font-size: 26px;
-  font-weight: 200;
+  font-weight: 400;
   line-height: 40px;
   padding: 10px 50px;
   text-align: center;
